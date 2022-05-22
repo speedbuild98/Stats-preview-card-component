@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <main>
         <img className="headerImg" src={headerMobile} alt="headerMobile-img" />
+        <img className="headerImg2" src={headerDesktop} alt="headerDesktop-img" />
         <div className="contenedor">
           <h1 className="titulo">
             Get <span className="insights">insights</span> that help your

@@ -42,11 +42,15 @@ main{
   border-radius:0 0 10px 10px;
 }
 
-.headerImg{
+.headerImg,
+.headerImg2{
   border-radius: 10px 10px 0 0;
   filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 94%, 49%));
 }
 
+.headerImg2{
+  display: none;
+}
 
 .contenedor{
   padding: 20px;
@@ -132,5 +136,12 @@ main{
 
   .Stats{
     margin: 20px 20px 0 0;
+  }
+  .headerImg{
+    display: none;
+  }
+
+  .headerImg2{
+    display: block;
   }
 }
